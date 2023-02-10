@@ -75,11 +75,11 @@ We are going to use a sample schema given to use by MySQL.
     - It's a NOT NULL simple attribute.
 
 3. How many foreign keys does the "payments" table have? How can you tell?
-    - There 3 FK 'payments' table have. Because, one end of the lines are one (and only one) to 'rental' table, 'staff' table, and 'customers' table; another ends are to 'payments' table. 
+    - There 3 FK 'payments' table have. Because, one end of the lines are one (and only one) to 'rental' table, 'staff' table, and 'customers' table; another ends are to 'payments' table. In additional, red colored filled diamon indicates NOT NULL FK, and red colored not filled diamond indicates a FK which can be NULL.
 
 ##### ER Diagram upload
 
 1. Take a screenshot of the ER diagram you created and name it "wk6_er_diagram"
 
 2. Copy the screenshot to this directory and upload it (git push) along with this README
-  ![ERD screenshot](img/wk6_er_diagram.jpg)
+  ![ERD screenshot](img/wk6_er_diagram.png)
